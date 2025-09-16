@@ -11,7 +11,7 @@ const spaceGrotesk = Space_Grotesk({
   variable: "--font-space-grotesk",
 });
 
-export const metadata = {
+export const metadata : Metadata = {
   title: "Solana Hub",
   description: "A one-stop dApp to send, receive, and manage SOL on-chain.",
   openGraph: {
@@ -35,7 +35,7 @@ export const metadata = {
     title: "Solana Hub",
     description: "A one-stop dApp to send, receive, and manage SOL on-chain.",
     images: ["https://solanahub.mishalturkane.xyz/banner.png"], 
-    creator: "@mishaldotrwa", //
+    creator: "@mishaldotrwa", 
   },
 };
 
