@@ -16,7 +16,7 @@ function Footer() {
     {/* Right */}
     <div className="order-3 md:order-none flex gap-6 text-sm">
       <a
-        href="/"
+        href="https://x.com/mishaldotrwa"
         className="hover:text-[#14F195] transition-colors"
         target="_blank"
         rel="noopener noreferrer"
@@ -24,7 +24,7 @@ function Footer() {
         Twitter
       </a>
       <a
-        href="/"
+        href="https://github.com/mishalturkane/solanahub"
         className="hover:text-[#9945FF] transition-colors"
         target="_blank"
         rel="noopener noreferrer"
@@ -32,10 +32,11 @@ function Footer() {
         GitHub
       </a>
       <a
-        href="mailto:youremail@example.com"
+        href="https://www.mishalturkane.xyz"
         className="hover:text-white transition-colors"
+         target="_blank"
       >
-        Email
+        Pertfolio
       </a>
     </div>
   </div>
