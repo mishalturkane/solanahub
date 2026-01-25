@@ -21,7 +21,8 @@ export default function AppBar() {
             <Link href="/airdrop" className="hover:text-purple-400">airdrop</Link>
             <Link href="/solbalance" className="hover:text-purple-400">sol balance</Link>
             <Link href="/sendsol" className="hover:text-purple-400">send sol</Link>
-            <Link href="/tokenmint" className="hover:text-purple-400">mint token</Link>
+            <Link href="/mint-token" className="hover:text-purple-400">mint token</Link>
+            <Link href="/mint-nft" className="hover:text-purple-400">mint nft</Link>
             <Link href="/transactions" className="hover:text-purple-400">transactions</Link>
           </div>
 
