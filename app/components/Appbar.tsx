@@ -17,7 +17,7 @@ export default function AppBar() {
           <SolanaHubLogo/>
 
           {/* Desktop menu */}
-          <div className="hidden md:flex space-x-6">
+          <div className="hidden md:flex space-x-6 font-medium">
             <Link href="/airdrop" className="hover:text-purple-400">airdrop</Link>
             <Link href="/solbalance" className="hover:text-purple-400">sol balance</Link>
             <Link href="/sendsol" className="hover:text-purple-400">send sol</Link>
