@@ -204,7 +204,7 @@ export default function LandingPage() {
               <div>
                 <h3 className="text-xl font-semibold text-white mb-2">Connect Your Wallet</h3>
                 <p className="text-gray-400">
-                  Use any Solana-compatible wallet like Phantom, Solflare, or Backpack. Click the "Connect Wallet" button in the navigation bar to get started.
+                  Use any Solana-compatible wallet like Phantom, Solflare, or Backpack. Click the &quot;Connect Wallet&quot; button in the navigation bar to get started.
                 </p>
               </div>
             </div>
