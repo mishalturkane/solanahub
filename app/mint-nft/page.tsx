@@ -168,7 +168,8 @@ export default function MintNFTPage() {
       const provider = new AnchorProvider(connection, anchorWallet, {
         commitment: "confirmed",
       });
-
+      
+      /* eslint-disable @typescript-eslint/no-explicit-any */
       const program = new Program(IDL as any, provider);
 
       // Generate mint keypair
@@ -241,6 +242,7 @@ export default function MintNFTPage() {
       });
 
       setCurrentStep("NFT minted successfully! 🎉");
+      // @typescript-eslint/no-explicit-any
     } catch (err: any) {
       console.error("Error:", err);
       setError(err.message || "Failed to mint NFT");

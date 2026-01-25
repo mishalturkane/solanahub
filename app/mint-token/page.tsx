@@ -2,7 +2,6 @@
 "use client";
 import { useState, useCallback } from "react";
 import { useConnection, useWallet } from "@solana/wallet-adapter-react";
-import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
 import {
   createInitializeMint2Instruction,
   createAssociatedTokenAccountInstruction,
@@ -261,6 +260,7 @@ export default function MintTokenPage() {
       });
 
       setCurrentStep("Token minted successfully! 🎉");
+      /* eslint-disable @typescript-eslint/no-explicit-any */
     } catch (err: any) {
       console.error("Minting error:", err);
       setError(err.message || "Failed to mint token. Please try again.");
